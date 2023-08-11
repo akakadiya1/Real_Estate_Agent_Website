@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to headings and paragraphs */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.agent-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the agent details section */
+.agent-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.agent-picture img {
+    max-width: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.intro-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.intro-text, .reviews {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 5px;
+}
+
+.reviews {
+    margin-top: 0;
+}
+
+/* Style the "Back to Home" link */
+.back-to-home {
+    color: blue;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.current-properties {
+    margin-top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 5px;
+}
